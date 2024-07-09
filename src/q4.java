@@ -9,10 +9,9 @@ public class q4 {
         System.out.println("Enter the  weigh : ");
         int weigh = obj.nextInt();
 
-        if (age > 18) {
-            System.out.println("");;
-        }else if (weigh >= 50) {
-            System.out.println("eligible for blood donation");;
+        if (age > 18 && weigh >= 50) {
+            System.out.println("eligible for blood donation");
+            ;
         }else {
             System.out.println("your can't donate");
         }
